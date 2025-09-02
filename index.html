@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khaled Hawash - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <script src="script.js"></script>
+
+    <!-- Loading Screen -->
+    <div class="loader">
+        <div class="loader-spinner"></div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast"></div>
+
+    <!-- Back to Top Button -->
+    <a href="#" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <header id="header">
+        <nav>
+            <div class="logo">
+                <a href="#about" class="nav-link">Khaled Hawash</a>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#timeline" class="nav-link">Education & Experience</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero" id="about">
+        <div class="hero-content">
+            <h1>Hello, I'm <span class="highlight">Khaled Hawash</span></h1>
+            <h2>Software Engineering Student & Developer</h2>
+            <p>I create innovative solutions with a focus on clean code, efficiency, and user experience.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">View Projects</a>
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="image-container">
+                <img src="images\pp.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section class="about-details">
+        <div class="container">
+            <p>I am a software engineering student with strong proficiency in C++ and Python, foundational experience in
+                Dart and Flutter, and a solid understanding of algorithms, data structures, and OOP principles. Eager to
+                contribute to impactful projects in mobile and web development, with hands-on experience using Git,
+                version
+                control, and collaborative workflows.</p>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <p class="section-subtitle">My technical proficiency across different areas</p>
+
+            <div class="skills-container">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-cuttlefish"></i>
+                    </div>
+                    <h3>C++ Programming</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-percent="80%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Python Development</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-percent="90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Flutter & Dart</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-percent="90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <h3>Algorithms & Data Structures</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-percent="88%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-git-alt"></i>
+                    </div>
+                    <h3>Git & Version Control</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-percent="85%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database Management</h3>
+                    <div class="skill-level">
+                        <div class="skill-bar" data-percent="75%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="timeline" id="timeline">
+        <h2 class="timeline-title">Education & Experience</h2>
+        <div class="timeline-container">
+
+            <div class="timeline-item left">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Software Engineering Student</h3>
+                    <p><strong>Sep 2023 – Present</strong></p>
+                    <p>Faculty of Computer Science and Artificial Intelligence, Cairo University</p>
+                    <p>Specializing in software development, algorithms, data structures, and OOP principles.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Flutter Journey – Route Academy</h3>
+                    <p><strong>Jan 2025 – Jun 2025</strong></p>
+                    <p>Studied Dart programming, Flutter framework, state management (BLoC, Provider), and Firebase
+                        integration.</p>
+                    <p>Built projects with APIs, GPS/Google Maps, push notifications, and implemented clean architecture
+                        with SOLID principles.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item left">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Flutter Development – Digital Egypt Pioneers Initiative (DEPI)</h3>
+                    <p><strong>Jun 2025 – Dec 2025</strong></p>
+                    <p>Advanced Flutter development training with focus on Dart, Firebase, mobile deployment, UX/UI, and
+                        Git/GitHub workflows.</p>
+                    <p>Completed a capstone project while applying unit testing, functional documentation, and agile
+                        methodologies.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item right">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                    <h3>Sprints x Microsoft Summer Camp</h3>
+                    <p><strong>Sep 2025</strong></p>
+                    <p>Completed Summer Camp in AI and Machine Learning with Sprints x Microsoft.</p>
+                    <p>Focused on machine learning models, data science workflows, and applied AI techniques.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications" id="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <p class="section-subtitle">Here are some of my certifications and achievements</p>
+
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <img src="images\b2 english.jpg">
+                    <h3>B2 English – CEFR</h3>
+                    <p>Issued in 2024</p>
+                </div>
+
+                <div class="cert-card">
+                    <img src="images/flutter.png" alt="Flutter Certificate">
+                    <h3>Flutter Development</h3>
+                    <p>Route Academy – Jan to Jun 2025</p>
+                </div>
+
+                <div class="cert-card">
+                    <img src="images/intermediate python.png">
+                    <h3>Intermediate Python</h3>
+                    <p>DataCamp – 2024</p>
+                </div>
+
+                <div class="cert-card">
+                    <img src="images/intermediate sql.png">
+                    <h3>Intermediate SQL</h3>
+                    <p>DataCamp – 2024</p>
+                </div>
+
+                <div class="cert-card">
+                    <img src="images/intro to sql.png">
+                    <h3>Introduction to SQL</h3>
+                    <p>DataCamp – 2024</p>
+                </div>
+
+                <div class="cert-card">
+                    <img src="images/understanding chatgpt.png">
+                    <h3>Understanding ChatGPT</h3>
+                    <p>DataCamp – 2024</p>
+                </div>
+
+                <div class="cert-card">
+                    <img src="images/understanding ai.png">
+                    <h3>Understanding AI</h3>
+                    <p>DataCamp – 2024</p>
+                </div>
+
+                <div class="cert-card">
+                    <img src="AI & ML Summer Camp.png" alt="AI & ML Summer Camp Certificate">
+                    <h3>Sprints x Microsoft Summer Camp</h3>
+                    <p>AI & Machine Learning – Sep 2025</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <p class="section-subtitle">Here are some of my key projects</p>
+
+            <div class="projects-grid">
+
+                <!-- Numbers Converting System -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/EMS.jpg" >
+                    </div>
+                    <div class="project-content">
+                        <h3>Numbers Converting System</h3>
+                        <p>A python system for converting between different number bases efficiently.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Conversion</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/KHALEDXHAWASH/NumbersConvertingSystem"
+                                class="btn small-btn secondary-btn" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Employees Management -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images\EMS.jpg">
+                    </div>
+                    <div class="project-content">
+                        <h3>Employees Management</h3>
+                        <p>A management system to handle employee data, salaries, and roles.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Management</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/KHALEDXHAWASH/EmployeesManagement"
+                                class="btn small-btn secondary-btn" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- The 100 Game -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/the 100.jpg">
+                    </div>
+                    <div class="project-content">
+                        <h3>The 100 Game</h3>
+                        <p>A Python game where players race to reach 100 with strategic moves.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Game</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/KHALEDXHAWASH/The-100-game-python"
+                                class="btn small-btn secondary-btn" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tic Tac Toe -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/tic tac toe.jpg">
+                    </div>
+                    <div class="project-content">
+                        <h3>Tic Tac Toe</h3>
+                        <p> Tic Tac Toe games implemented in C++ and its classic version in flutter.</p>
+                        <div class="project-tags">
+                            <span>C++</span>
+                            <span>Flutter</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/KHALEDXHAWASH/Tic---Tac---toe-"
+                                class="btn small-btn secondary-btn" target="_blank">GitHub</a>
+                            <a href="https://github.com/KHALEDXHAWASH/tictactoe" class="btn small-btn secondary-btn"
+                                target="_blank">GitHub (flutter)</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images\islami.png">
+                    </div>
+                    <div class="project-content">
+                        <h3>Islami App</h3>
+                        <p>A flutter application providing Islamic resources</p>
+                        <div class="project-tags">
+                            <span>Flutter</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/KHALEDXHAWASH/islami-c14-online"
+                                class="btn small-btn secondary-btn" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Image Processing -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/luka.png">
+                    </div>
+                    <div class="project-content">
+                        <h3>Image Processing</h3>
+                        <p>A C++ project focused on applying image filters and processing algorithms.</p>
+                        <div class="project-tags">
+                            <span>C++</span>
+                            <span>image editing</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/KHALEDXHAWASH/Image-processing-"
+                                class="btn small-btn secondary-btn" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Space App -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/space.png">
+                    </div>
+                    <div class="project-content">
+                        <h3>Space App</h3>
+                        <p>A space-themed flutter project exploring astronomy data.</p>
+                        <div class="project-tags">
+                            <span>Flutter</span>
+                            <span>Science</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/KHALEDXHAWASH/space_app" class="btn small-btn secondary-btn"
+                                target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Encrypting System -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/encryption.png" >
+                    </div>
+                    <div class="project-content">
+                        <h3>Encrypting System</h3>
+                        <p>A secure system that encrypts and decrypts sensitive data.</p>
+                        <div class="project-tags">
+                            <span>C++</span>
+                            <span>Security</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/KHALEDXHAWASH/EncryptingSystem"
+                                class="btn small-btn secondary-btn" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MyEvently -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/evently.png" >
+                    </div>
+                    <div class="project-content">
+                        <h3>MyEvently</h3>
+                        <p>A Flutter app for event management and scheduling.</p>
+                        <div class="project-tags">
+                            <span>Flutter</span>
+                            <span>Dart</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/KHALEDXHAWASH/MyEvently" class="btn small-btn secondary-btn"
+                                target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- News App -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/news.png" >
+                    </div>
+                    <div class="project-content">
+                        <h3>News App</h3>
+                        <p>A Flutter-based app that fetches and displays live news updates.</p>
+                        <div class="project-tags">
+                            <span>Flutter</span>
+                            <span>API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/KHALEDXHAWASH/NewsApp" class="btn small-btn secondary-btn"
+                                target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Metro Project -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/logo.jpg" >
+                    </div>
+                    <div class="project-content">
+                        <h3>Metro Project</h3>
+                        <p>A flutter app of a metro system with stations and routes.</p>
+                        <div class="project-tags">
+                            <span>Flutter</span>
+                            <span>Simulation</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Amrwael10/metro_project" class="btn small-btn secondary-btn"
+                                target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Get In Touch</h3>
+
+                <!-- Email Clickable (Gmail) -->
+                <div class="contact-item animate">
+                    <a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=khaledhawash143@gmail.com"
+                        target="_blank">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>khaledhawash143@gmail.com</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Phone -->
+                <div class="contact-item animate">
+                    <a href="tel:+11234567890">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+201127119318</p>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- Location -->
+                <div class="contact-item animate">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Egypt</p>
+                    </div>
+                </div>
+
+                <!-- Social Links -->
+                <div class="social-links-container animate">
+                    <h4>Connect With Me</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/KHALEDXHAWASH" target="blank" class="social-icon"
+                            aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/khaled-hawash-4ab450310/" target="blank"
+                            class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section (separate) -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Khaled Hawash. All Rights Reserved.</p>
+        </div>
+    </footer>
